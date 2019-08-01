@@ -47,7 +47,13 @@ Train Yolo
 10. Training :  (Run the following command)
 
          darknet.exe detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
-     
+         
+         
+ 11. Stop the training when we get the avg loss  value starts with 0.0 (before stopping, confirm whether the yolo weights are   saved or not after getting the 0.0 avg loss values.)
+
+12. copy the yolo text, cfg and weight file into the yolo-object-detection-training directory.
+
+13. Run the yolo_detection.py files and start the detection.
 
 
           
