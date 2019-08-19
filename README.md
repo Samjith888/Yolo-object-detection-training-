@@ -5,8 +5,12 @@ Train Yolo
 
 1. Download darknet-master Github repository and use Cmake and generate. Build solution by using
    Visual studio and it will generate darknet.exe and some other files.
+    
+       https://github.com/AlexeyAB/darknet
 
-2. Download BBox-Label-Tool-master from Github repository 
+2. Download BBox-Label-Tool-master from Github repository.
+
+       https://github.com/puzzledqs/BBox-Label-Tool
 
 3. Paste the training images folder or copy the path of the training images
 
@@ -49,12 +53,19 @@ Train Yolo
          darknet.exe detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
          
          
- The following the screenshot of trainining yolo by using cmd     
+   The following is the screenshot of trainining yolo by using cmd     
          
    ![yolotrain](https://user-images.githubusercontent.com/39676803/63241416-3eab0880-c271-11e9-87d2-eeab9f230d5b.PNG)
    
+   ![yolo_train1](https://user-images.githubusercontent.com/39676803/63242622-9ba8bd80-c275-11e9-9106-605d27baa4c2.PNG)
+   
  
+11. Stop the training when we get the avg loss  value starts with 0.0 (before stopping, confirm whether the yolo weights 
+    are saved or not after getting the 0.0 avg loss values.)
 
+12. copy the yolo text, cfg and weight file into the yolo-object-detection-training directory.
+
+13. Run the yolo_detection.py files and start the detection.
 
 
           
