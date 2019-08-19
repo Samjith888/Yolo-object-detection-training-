@@ -57,7 +57,8 @@ Train Yolo
          
    ![yolotrain](https://user-images.githubusercontent.com/39676803/63241416-3eab0880-c271-11e9-87d2-eeab9f230d5b.PNG)
    
-   ![yolo_train1](https://user-images.githubusercontent.com/39676803/63242622-9ba8bd80-c275-11e9-9106-605d27baa4c2.PNG)
+   
+   ![yolo_train2](https://user-images.githubusercontent.com/39676803/63253452-86408d00-c28f-11e9-8248-1cba0924c6c3.PNG)
    
  
 11. Stop the training when we get the avg loss  value starts with 0.0 (before stopping, confirm whether the yolo weights 
