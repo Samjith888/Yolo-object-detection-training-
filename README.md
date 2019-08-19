@@ -1,4 +1,4 @@
-# Yolo-object-detection-training-
+# Yolo-object-detection-training- (YOLO V2)
 
 Train Yolo
 
